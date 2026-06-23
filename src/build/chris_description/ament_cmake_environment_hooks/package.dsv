@@ -1,0 +1,4 @@
+source;share/chris_description/local_setup.bash
+source;share/chris_description/local_setup.dsv
+source;share/chris_description/local_setup.sh
+source;share/chris_description/local_setup.zsh

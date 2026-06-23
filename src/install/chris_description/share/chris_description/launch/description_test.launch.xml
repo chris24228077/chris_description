@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+
+  <let name="urdf_file" value="$(find-pkg-share chris_description)/urdf/chris_robot.urdf" />
+
+  <node name="robot_state_publisher" pkg="robot_state_publisher" exec="robot_state_publisher">
+    <param name="robot_description" value="$(file-content $(var urdf_file))"/>
+  </node>
+
+  <node name="joint_state_publisher_gui" pkg="joint_state_publisher_gui" exec="joint_state_publisher_gui" />
+
+  <node name="rviz2" pkg="rviz2" exec="rviz2" args="-d $(find-pkg-share chris_description)/config/config.rviz"/>
+
+</launch>

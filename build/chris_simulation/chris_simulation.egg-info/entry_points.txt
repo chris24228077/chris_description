@@ -1,0 +1,2 @@
+[console_scripts]
+motion_generator = chris_simulation.motion_generator:main

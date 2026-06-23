@@ -1,0 +1,38 @@
+[1.195s] Invoking command in '/home/user/ros2_ws/src/chris_simulation': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/user/ros2_ws/build/chris_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/chris_simulation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/chris_simulation build --build-base /home/user/ros2_ws/build/chris_simulation/build install --record /home/user/ros2_ws/build/chris_simulation/install.log --single-version-externally-managed install_data
+[1.409s] running egg_info
+[1.409s] creating ../../build/chris_simulation/chris_simulation.egg-info
+[1.424s] writing ../../build/chris_simulation/chris_simulation.egg-info/PKG-INFO
+[1.424s] writing dependency_links to ../../build/chris_simulation/chris_simulation.egg-info/dependency_links.txt
+[1.424s] writing entry points to ../../build/chris_simulation/chris_simulation.egg-info/entry_points.txt
+[1.424s] writing requirements to ../../build/chris_simulation/chris_simulation.egg-info/requires.txt
+[1.425s] writing top-level names to ../../build/chris_simulation/chris_simulation.egg-info/top_level.txt
+[1.425s] writing manifest file '../../build/chris_simulation/chris_simulation.egg-info/SOURCES.txt'
+[1.455s] reading manifest file '../../build/chris_simulation/chris_simulation.egg-info/SOURCES.txt'
+[1.456s] adding license file 'LICENSE'
+[1.456s] writing manifest file '../../build/chris_simulation/chris_simulation.egg-info/SOURCES.txt'
+[1.456s] running build
+[1.457s] running build_py
+[1.457s] creating /home/user/ros2_ws/build/chris_simulation/build
+[1.457s] creating /home/user/ros2_ws/build/chris_simulation/build/lib
+[1.457s] creating /home/user/ros2_ws/build/chris_simulation/build/lib/chris_simulation
+[1.457s] copying chris_simulation/__init__.py -> /home/user/ros2_ws/build/chris_simulation/build/lib/chris_simulation
+[1.457s] copying chris_simulation/motion_generator.py -> /home/user/ros2_ws/build/chris_simulation/build/lib/chris_simulation
+[1.457s] running install
+[1.462s] running install_lib
+[1.479s] creating /home/user/ros2_ws/install/chris_simulation/lib/python3.12/site-packages/chris_simulation
+[1.479s] copying /home/user/ros2_ws/build/chris_simulation/build/lib/chris_simulation/__init__.py -> /home/user/ros2_ws/install/chris_simulation/lib/python3.12/site-packages/chris_simulation
+[1.480s] copying /home/user/ros2_ws/build/chris_simulation/build/lib/chris_simulation/motion_generator.py -> /home/user/ros2_ws/install/chris_simulation/lib/python3.12/site-packages/chris_simulation
+[1.480s] byte-compiling /home/user/ros2_ws/install/chris_simulation/lib/python3.12/site-packages/chris_simulation/__init__.py to __init__.cpython-312.pyc
+[1.481s] byte-compiling /home/user/ros2_ws/install/chris_simulation/lib/python3.12/site-packages/chris_simulation/motion_generator.py to motion_generator.cpython-312.pyc
+[1.481s] running install_data
+[1.481s] creating /home/user/ros2_ws/install/chris_simulation/share/ament_index
+[1.482s] creating /home/user/ros2_ws/install/chris_simulation/share/ament_index/resource_index
+[1.482s] creating /home/user/ros2_ws/install/chris_simulation/share/ament_index/resource_index/packages
+[1.482s] copying resource/chris_simulation -> /home/user/ros2_ws/install/chris_simulation/share/ament_index/resource_index/packages
+[1.482s] copying package.xml -> /home/user/ros2_ws/install/chris_simulation/share/chris_simulation
+[1.482s] running install_egg_info
+[1.498s] Copying ../../build/chris_simulation/chris_simulation.egg-info to /home/user/ros2_ws/install/chris_simulation/lib/python3.12/site-packages/chris_simulation-0.0.0-py3.12.egg-info
+[1.502s] running install_scripts
+[1.608s] Installing motion_generator script to /home/user/ros2_ws/install/chris_simulation/lib/chris_simulation
+[1.609s] writing list of installed files to '/home/user/ros2_ws/build/chris_simulation/install.log'
+[1.633s] Invoked command in '/home/user/ros2_ws/src/chris_simulation' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/user/ros2_ws/build/chris_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/chris_simulation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/chris_simulation build --build-base /home/user/ros2_ws/build/chris_simulation/build install --record /home/user/ros2_ws/build/chris_simulation/install.log --single-version-externally-managed install_data
