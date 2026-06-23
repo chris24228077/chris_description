@@ -1,0 +1,44 @@
+[0.017s] Invoking command in '/home/user/ros2_ws/build/chris_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/user/ros2_ws/src/chris_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/chris_description
+[0.262s] -- The C compiler identification is GNU 13.3.0
+[0.416s] -- The CXX compiler identification is GNU 13.3.0
+[0.445s] -- Detecting C compiler ABI info
+[0.544s] -- Detecting C compiler ABI info - done
+[0.551s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.552s] -- Detecting C compile features
+[0.554s] -- Detecting C compile features - done
+[0.568s] -- Detecting CXX compiler ABI info
+[0.673s] -- Detecting CXX compiler ABI info - done
+[0.678s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.679s] -- Detecting CXX compile features
+[0.679s] -- Detecting CXX compile features - done
+[0.695s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.826s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.909s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.977s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.083s] -- Added test 'lint_cmake' to check CMake code style
+[1.086s] -- Added test 'xmllint' to check XML markup files
+[1.090s] -- Configuring done (1.0s)
+[1.093s] -- Generating done (0.0s)
+[1.093s] -- Build files have been written to: /home/user/ros2_ws/build/chris_description
+[1.098s] Invoked command in '/home/user/ros2_ws/build/chris_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/user/ros2_ws/src/chris_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/chris_description
+[1.099s] Invoking command in '/home/user/ros2_ws/build/chris_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/ros2_ws/build/chris_description -- -j4 -l4
+[1.137s] Invoked command in '/home/user/ros2_ws/build/chris_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/ros2_ws/build/chris_description -- -j4 -l4
+[1.148s] Invoking command in '/home/user/ros2_ws/build/chris_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/ros2_ws/build/chris_description
+[1.162s] -- Install configuration: ""
+[1.162s] -- Execute custom install script
+[1.162s] -- Symlinking: /home/user/ros2_ws/install/chris_description/share/ament_index/resource_index/package_run_dependencies/chris_description
+[1.165s] -- Symlinking: /home/user/ros2_ws/install/chris_description/share/ament_index/resource_index/parent_prefix_path/chris_description
+[1.172s] -- Symlinking: /home/user/ros2_ws/install/chris_description/share/chris_description/environment/ament_prefix_path.sh
+[1.180s] -- Symlinking: /home/user/ros2_ws/install/chris_description/share/chris_description/environment/ament_prefix_path.dsv
+[1.187s] -- Symlinking: /home/user/ros2_ws/install/chris_description/share/chris_description/environment/path.sh
+[1.194s] -- Symlinking: /home/user/ros2_ws/install/chris_description/share/chris_description/environment/path.dsv
+[1.201s] -- Symlinking: /home/user/ros2_ws/install/chris_description/share/chris_description/local_setup.bash
+[1.210s] -- Symlinking: /home/user/ros2_ws/install/chris_description/share/chris_description/local_setup.sh
+[1.218s] -- Symlinking: /home/user/ros2_ws/install/chris_description/share/chris_description/local_setup.zsh
+[1.225s] -- Symlinking: /home/user/ros2_ws/install/chris_description/share/chris_description/local_setup.dsv
+[1.233s] -- Symlinking: /home/user/ros2_ws/install/chris_description/share/chris_description/package.dsv
+[1.242s] -- Symlinking: /home/user/ros2_ws/install/chris_description/share/ament_index/resource_index/packages/chris_description
+[1.250s] -- Symlinking: /home/user/ros2_ws/install/chris_description/share/chris_description/cmake/chris_descriptionConfig.cmake
+[1.258s] -- Symlinking: /home/user/ros2_ws/install/chris_description/share/chris_description/cmake/chris_descriptionConfig-version.cmake
+[1.265s] -- Symlinking: /home/user/ros2_ws/install/chris_description/share/chris_description/package.xml
+[1.274s] Invoked command in '/home/user/ros2_ws/build/chris_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/ros2_ws/build/chris_description

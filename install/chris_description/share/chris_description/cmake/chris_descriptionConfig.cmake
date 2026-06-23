@@ -1,0 +1,1 @@
+/home/user/ros2_ws/build/chris_description/ament_cmake_core/chris_descriptionConfig.cmake
